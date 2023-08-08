@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style1.css">
     <link rel="stylesheet" href="./assets/css/root.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
@@ -41,7 +42,7 @@
         <section>
             <div class="container pt-80 ">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 fade-right">
                         <div class=" d-flex align-items-center gap-2">
                             <img src="./assets/images/blue-line.png" alt="blue-line">
                             <h1 class="text-white fw-300 fs-32 text-center">The world’s <span
@@ -49,7 +50,7 @@
                         </div>
                         <h2 class="fs-48 fw-700 clr_white">AI powered document compliance solution</h2>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 fade-left">
                         <div>
                             <p class="text-white opacity-75">iDox.ai provides the world’s most advanced AI powered
                                 redaction solution for
@@ -78,20 +79,30 @@
                 <p class="text-white m-0 fs_16 fw-400">Time savings</p>
             </div>
         </div>
-        <div class="dashboard-box1">
-            <img src="./assets/images/box-img2.png" alt="box-img2" class="border-radius">
+        <div class="dashboard-box1 file-formate">
+            <img src="./assets/images/box-img3.png" alt="box-img3" class="border-radius">
+            <div class="d-flex flex-column">
+                <p class="text-white m-0 fs-20 fw-700">95%</p>
+                <p class="text-white m-0 fs_16 fw-400">Time savings</p>
+            </div>
+        </div>
+        <div class="dashboard-box1 cost-saving">
+            <img src="./assets/images/box-img4.png" alt="box-img4" class="border-radius">
             <div class="d-flex flex-column">
                 <p class="text-white m-0 fs-20 fw-700">95%</p>
                 <p class="text-white m-0 fs_16 fw-400">Time savings</p>
             </div>
         </div>
         <div class="container">
-            <div class="d-flex align-items-center justify-content-center translate-middle-y">
+            <div class="d-flex align-items-center justify-content-center translate-middle-y" data-aos="zoom-out-up">
                 <img src="./assets/images/hero-img.png" alt="hero-img" class="w-100 mw-985">
             </div>
         </div>
     </section>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
