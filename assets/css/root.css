@@ -50,19 +50,15 @@
 .fs-20 {
   font-size: var(--fs-2xl);
 }
-
 .fs_44 {
   font-size: var(--fs-4xl);
 }
-
 .text_sky {
   color: var(--sky);
 }
-
 .clr-light_blue {
   color: var(--light-blue, #0389ff);
 }
-
 .text_white {
   color: var(--white, B0B7BD);
 }
