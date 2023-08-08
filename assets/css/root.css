@@ -81,6 +81,7 @@
 
 .background-blue {
     background-color: var(--blue, #031322);
+    
 }
 
 @media (max-width:1200px) {
@@ -93,4 +94,19 @@
         --fs-2xl: 20px;
         --fs-3xl: 11px;
     }
+}
+.fw_500{
+    font-weight: 500;
+}
+.fw_400{
+    font-weight: 400;
+}
+.fw_600{
+    font-weight: 600;
+}
+.fw_700{
+    font-weight: 700;
+}
+.fw_300{
+    font-weight:300;
 }
