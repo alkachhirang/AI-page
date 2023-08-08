@@ -80,7 +80,7 @@
 }
 
 .background-blue {
-  background-color: var(--blue, #031322);
+    background-color: var(--blue, #031322);
 }
 
 @media (max-width: 1200px) {
