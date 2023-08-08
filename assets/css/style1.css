@@ -37,11 +37,11 @@
 .rotate-90 {
   transform: rotate(90deg);
 }
-.pt-80{
-    padding-top: 80px;
+.pt-80 {
+  padding-top: 80px;
 }
-.pb-80{
-    padding-bottom: 80px;
+.pb-80 {
+  padding-bottom: 80px;
 }
 .bg-image {
   background-image: url("../images/herosection-img.png");
@@ -79,23 +79,27 @@
 .min-vh-90 {
   min-height: 90vh;
 }
-.dashboard-box1{
-display: inline-flex;
-padding: 16px 20px;
-align-items: center;
-gap: 20px;
-position: absolute;
-border-radius: 12px;
-background: rgba(3, 137, 255, 0.12);
-backdrop-filter: blur(12px);
-/* right: 19%; */
-z-index: 1;
+.dashboard-box1 {
+  display: inline-flex;
+  padding: 16px 20px;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  border-radius: 12px;
+  background: rgba(3, 137, 255, 0.12);
+  backdrop-filter: blur(12px);
+  /* right: 19%; */
+  z-index: 1;
 }
-.right-19{
-    right: 19%;
+.right-19 {
+  right: 19%;
 }
-.border-radius{
-    border-radius: 14px;
+.time-savings-box {
+  right: 30%;
+  bottom: 43%;
+}
+.border-radius {
+  border-radius: 14px;
 }
 @media (min-width: 576px) {
   .min-vh-sm-50 {
@@ -125,7 +129,7 @@ z-index: 1;
     align-items: center;
     opacity: 0;
     pointer-events: none;
-    background-color: var( --blue);
+    background-color: var(--blue);
     transition: all.3s linear;
   }
   label[for="menu_box"] > span {
