@@ -1,0 +1,96 @@
+:root {
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-md: 32px;
+    --fs-xl: 48px;
+    --fs-xxl: 15px;
+    --fs-2xl: 20px;
+    --fs-3xl: 11px;
+    --fs-4xl: 44px;
+    --fs-5xl: 18px;
+    --fs-6xl: 14px;
+
+    /* color */
+    --sky: #0389FF;
+    --white: #B0B7BD;
+    --blue: #031322;
+    --light-blue: #0389FF;
+    --white-2: #FBFDFF;
+    --grey: #FBFDFF;
+}
+
+.fs-11 {
+    font-size: var(--fs-3xl);
+}
+
+.fs-32 {
+    font-size: var(--fs-md);
+}
+
+.fs_18 {
+    font-size: var(--fs-5xl);
+}
+
+.fs_16 {
+    font-size: var(--fs-sm);
+}
+
+.fs-15 {
+    font-size: var(--fs-xxl);
+}
+
+.fs_14 {
+    font-size: var(--fs-6xl);
+}
+
+.fs-48 {
+    font-size: var(--fs-xl);
+}
+
+.fs-20 {
+    font-size: var(--fs-2xl);
+}
+
+.fs_44 {
+    font-size: var(--fs-4xl);
+}
+
+.text_sky {
+    color: var(--sky);
+}
+
+.clr-light_blue {
+    color: var(--light-blue, #0389FF);
+}
+
+.text_white {
+    color: var(--white, B0B7BD);
+}
+
+.text_grey {
+    color: var(--grey, #FBFDFF);
+}
+
+.text_grey:hover {
+    color: #0165d2;
+}
+
+.clr_white {
+    color: var(--white-2, #FBFDFF);
+}
+
+.background-blue {
+    background-color: var(--blue, #031322);
+}
+
+@media (max-width:1200px) {
+    :root {
+        /* font-size */
+        --fs-sm: 16px;
+        --fs-md: 32px;
+        --fs-xl: 41px;
+        --fs-xxl: 15px;
+        --fs-2xl: 20px;
+        --fs-3xl: 11px;
+    }
+}
