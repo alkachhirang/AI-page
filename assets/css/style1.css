@@ -85,6 +85,9 @@
   /* right: 19%; */
   z-index: 1;
 }
+.pb-100{
+  padding-bottom: 100px;
+}
 .mw-96 {
   max-width: 96px;
 }
