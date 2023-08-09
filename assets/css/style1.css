@@ -22,14 +22,23 @@
 .pt-19 {
   padding-top: 19px;
 }
+.pt-24 {
+  padding-top: 24px !important;
+}
 .rotate-90 {
   transform: rotate(90deg);
+}
+.pb-58 {
+  padding-bottom: 58px;
 }
 .pt-80 {
   padding-top: 80px;
 }
 .pb-80 {
   padding-bottom: 80px;
+}
+.pb-24{
+  padding-bottom: 24px;
 }
 .bg-image {
   background-image: url("../images/herosection-img.png");
@@ -60,6 +69,9 @@
 .mw-985 {
   max-width: 985px !important;
 }
+.mw-274 {
+  max-width: 274px !important;
+}
 .nav-link:hover::after {
   width: 100%;
   transition: all 300ms linear;
@@ -85,7 +97,7 @@
   /* right: 19%; */
   z-index: 1;
 }
-.pb-100{
+.pb-100 {
   padding-bottom: 100px;
 }
 .mw-96 {
@@ -103,6 +115,37 @@
   background: #1673ff;
   filter: blur(100px);
 }
+.glow-effect2 {
+  position: absolute;
+  right: 20%;
+  top: 37%;
+  width: 381.479px;
+  height: 395.788px;
+  flex-shrink: 0;
+  border-radius: 395.788px;
+  opacity: 0.3;
+  background: #06f;
+  filter: blur(123.5px);
+}
+.work-sec-effect1 {
+  position: absolute;
+  bottom: 23%;
+  left: 39%;
+  width: 299.329px;
+  height: 303.657px;
+  flex-shrink: 0;
+  border-radius: 303.657px;
+  opacity: 0.4;
+  background: #1673ff;
+  filter: blur(100px);
+}
+.border-right{
+  border-right: 2px solid #273A4F;
+}
+.border_top{
+   border-top: 2px solid #273A4F;
+}
+
 @media (min-width: 576px) {
   .min-vh-sm-50 {
     min-height: 50vh;
@@ -139,8 +182,8 @@
     z-index: 1;
   }
   .translate-translat50y-sm {
-  transform: translateY(-50%) !important;
-}
+    transform: translateY(-50%) !important;
+  }
 }
 @media (min-width: 768px) {
   .accuracy-md {
@@ -186,11 +229,11 @@
   .time-saving-lg {
     left: 63%;
     top: 40%;
-}
+  }
   .file-formate-lg {
     left: 7%;
     top: 20%;
-}
+  }
   .cost-saving-lg {
     top: -12%;
   }
@@ -215,9 +258,12 @@
   .mw-474-lg {
     max-width: 474px;
   }
+  .mw-525 {
+    max-width: 525px;
+  }
   .translate-translat50y-lg {
-  transform: translateY(-50%) !important;
-}
+    transform: translateY(-50%) !important;
+  }
 }
 @media (min-width: 1200px) {
   .min-vh-xl-70 {
