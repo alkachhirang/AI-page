@@ -8,7 +8,36 @@
     text-decoration: none !important;
     list-style: none;
 }
+.background-img {
+    background-image: url("../images/bg-img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--blue);
+}
+.sign-up-button {
+    border-radius: 40px;
+    background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+    border: 1px solid rgba(0, 136, 255, 0.58) !important;
+    padding:8px;
+}
+.max-width_627{
+    max-width: 627px;
+}
+.email-box {
+    border-radius: 29px;
+    background: rgba(251, 253, 255, 0.07);
+    /* padding: 0px 63px; */
+    border: 2px solid transparent;
+    max-width: 520px;
+}
 
+.email {
+    background: transparent;
+    padding: 6px 8px;
+    border: 2px solid transparent;
+}
 .bg-light-black {
     background-color: #020d15;
 }
@@ -118,6 +147,14 @@
     border: 2px solid #0066d1;
     padding: 13px 32px;
 }
+.demo-button:hover {
+    border-radius: 40px;
+    background:white;
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+    border: 2px solid #0066d1;
+    padding: 13px 32px;
+}
+
 .slider-box {
     width: Fixed (400px);
     height: Fixed (80px);
@@ -128,27 +165,21 @@
     background: rgba(3, 137, 255, 0.12);
     backdrop-filter: blur(12.5px);
 }
-
 .max-width_400 {
     max-width: 400px;
 }
-
 .max_width-177 {
     max-width: 177px;
 }
-
 .max_width-201 {
     max-width: 201px;
 }
-
 .max_width-181 {
     max-width: 181px;
 }
-
 .max-width_219 {
     max-width: 219px;
 }
-
 .max-width_210 {
     max-width: 210px;
 }
@@ -158,35 +189,63 @@
 .max-width_67 {
     max-width:67px;
 }
-
 .max-width_205 {
     max-width: 205px;
 }
-
 .pr_16 {
     padding-right: 16px;
 }
-
 .pb_102 {
     padding-bottom: 102px;
 }
-
 .pb_112 {
     padding-bottom: 112px;
 }
-
 .pt_131 {
     padding-top: 131px;
 }
-
+.pb_131{
+    padding-bottom: 131px;
+}
+.max-width_85{
+    max-width: 85px;
+}
+.max-width_834{
+    max-width: 834px;
+}
 .border_right {
     border-right: 2px solid #273138 !important;
 }
-
 .border_top {
     border-top: 2px solid #273138 !important;
 }
+.test-box {
+    height: 350px !important;
+    /* width: 946px; */
+    padding: 56px 56px 85px 108px;
+    border-radius: 20px;
+    background: rgba(3, 137, 255, 0.12);
+}
+.test-box {
+    opacity: 0.6;
+}
+.test-box.slick-current {
+    opacity: 1;
+}
+.slick-dots li button:before {
+    opacity: 1 !important;
+}
 
+.slick-dots li.slick-active button:before {
+    color: #0389ff !important;
+    opacity: 1 !important;
+    width: 10px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+    color: #ffffff !important;
+}
 @media (min-width:576px) {
     .border_top_sm {
         border-top: 2px solid #273138 !important;
@@ -194,8 +253,26 @@
     .border-right-sm{
         border-right: none !important;
     }
+        .sign-up-button-sm {
+            border-radius: 40px;
+            background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
+            box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+            border: 1px solid rgba(0, 136, 255, 0.58) !important;
+            padding: 13px 32px;
+        }
+                .email-box-sm {
+                    border-radius: 29px;
+                    background: rgba(251, 253, 255, 0.07);
+                    /* padding: 0px 63px; */
+                    border: 2px solid transparent;
+                    max-width: 520px;
+                }
+                                .email-sm {
+                                    background: transparent;
+                                    padding: 13px 80px;
+                                    border: 2px solid transparent;
+                                }
 }
-
 @media (min-width:992px) {
     .border_top_lg {
         border-top: 2px solid #273138 !important;
@@ -206,4 +283,7 @@
     .border-top-lg{
         border-top: none !important;
     }
+        .max-width_467 {
+            max-width: 467px;
+        }
 }
