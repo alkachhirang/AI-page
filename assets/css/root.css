@@ -76,7 +76,7 @@
 }
 
 .background-blue {
-    background-color: var(--blue, #031322);
+    background-color: var(--blue, #020d15);
 }
 .fw_500{
     font-weight: 500;
