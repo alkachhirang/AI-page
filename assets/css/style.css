@@ -298,11 +298,6 @@
     font-size: 15px !important;
     color: #ffffff !important;
 }
-
-
-
-
-
 .mr_3 {
     margin-right: 3px;
 }
@@ -314,10 +309,10 @@
 .border_bottom {
     border-bottom: 1px solid #fbfdff33;
 }
-
+/* 
 .ff-Plus-Jakarta-Sans {
     font-family: "Plus Jakarta Sans" sans-serif;
-}
+} */
 .pt-19 {
     padding-top: 19px;
 }
