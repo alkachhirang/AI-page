@@ -172,6 +172,12 @@
   background: rgba(3, 137, 255, 0.1);
   backdrop-filter: blur(1.289352297782898px);
 }
+.bg_dark_blue{
+  background-color: #021728;
+}
+.mw-1440{
+  max-width: 1440px;
+}
 @media (min-width: 576px) {
   .min-vh-sm-50 {
     min-height: 50vh;
