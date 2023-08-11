@@ -493,6 +493,30 @@ html {
     background: #06f;
     filter: blur(100px);
 }
+.glow-effect5 {
+    position: absolute;
+    right: -7%;
+    top: 14%;
+    border-radius: 416.224px;
+    opacity: 0.3;
+    background: #06f;
+    filter: blur(100px);
+    width: 416.224px;
+    height: 405.428px;
+    flex-shrink: 0;
+}
+.glow-effect6 {
+    position: absolute;
+    top: 14%;
+    left: 24%;
+    border-radius: 416.224px;
+    opacity: 0.3;
+    background: #06f;
+    filter: blur(100px);
+    width: 416.224px;
+    height: 405.428px;
+    flex-shrink: 0;
+}
 .pl-12 {
     padding-left: 12px;
 }
