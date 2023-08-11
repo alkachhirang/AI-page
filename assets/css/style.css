@@ -347,9 +347,18 @@ html {
 }
 
 .slick-dots li.slick-active button:before {
+    content: "";
+    width: 53px !important;
+    height: 12px !important;
+    border-radius: 28px;
+    background-color: #0389ff !important;
     color: #0389ff !important;
     opacity: 1 !important;
-    width: 10px !important;
+   transition: all 200ms linear;
+}
+.slick-dots li.slick-active{
+    width: 53px !important;
+    height: 10px !important;
 }
 
 .slick-dots li button:before {
@@ -723,10 +732,6 @@ html {
 
     .translate-translat50y-lg {
         transform: translateY(-50%) !important;
-    }
-
-    .margin-bottom-lg {
-        margin-bottom: -219px;
     }
 
     .border-right-lg {

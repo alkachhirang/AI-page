@@ -71,6 +71,12 @@
 .text_grey {
   color: var(--grey, #fbfdff);
 }
+.clr_light{
+  color: #ffffff;
+}
+.clr_light:hover{
+  color:#0389ff;
+}
 
 .text_grey:hover {
   color: #0165d2;
