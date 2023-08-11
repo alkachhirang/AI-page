@@ -211,6 +211,9 @@ html {
 .mw_274{
   max-width: 274px;
 }
+.color-white{
+  color: #ffffff;
+}
 @media (min-width: 576px) {
   .min-vh-sm-50 {
     min-height: 50vh;
