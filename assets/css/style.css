@@ -91,7 +91,12 @@ html {
 .mw-274 {
     max-width: 274px !important;
 }
-
+.pb-24 {
+    padding-bottom: 24px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
 .glow-effect2 {
     position: absolute;
     right: 20%;
@@ -448,7 +453,7 @@ html {
 }
 
 .pb-100 {
-    padding-bottom: 100px;
+    padding-bottom: 100px !important;
 }
 
 .mw-96 {
@@ -573,7 +578,9 @@ html {
 .bg_dark_blue {
     background-color: #021728;
 }
-
+.color-white {
+    color: #ffffff;
+}
 .mw-1440 {
     max-width: 1440px;
 }
