@@ -211,9 +211,9 @@ html {
     padding: 13px 32px;
 }
 .slider-box {
-    width: Fixed (400px);
-    height: Fixed (80px);
-    padding: 28px;
+   max-width: 600px !important;
+    height: 80px !important;
+    padding: 28px ;
     border-radius: 10px;
     gap: 14px;
     border-radius: 10px;
