@@ -215,7 +215,7 @@ html {
     height: 80px !important;
     padding: 28px ;
     border-radius: 10px;
-    gap: 14px;
+    gap:10px;
     border-radius: 10px;
     background: rgba(3, 137, 255, 0.12);
     backdrop-filter: blur(12.5px);
