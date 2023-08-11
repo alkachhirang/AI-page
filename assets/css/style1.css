@@ -6,15 +6,24 @@
   box-sizing: border-box;
   text-decoration: none !important;
   list-style: none !important;
+  /* outline: 2px solid red; */
+}
+.container1 {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+body,
+html {
+  overflow-x: hidden;
 }
 .mr_3 {
   margin-right: 3px;
 }
 .gap-51 {
   gap: 51px;
-}
-.border_bottom {
-  border-bottom: 1px solid #fbfdff33;
 }
 .ff-Plus-Jakarta-Sans {
   font-family: "Plus Jakarta Sans" sans-serif;
@@ -83,9 +92,6 @@
 .mw-985 {
   max-width: 985px !important;
 }
-.mw-274 {
-  max-width: 274px !important;
-}
 .nav-link:hover::after {
   width: 100%;
   transition: all 300ms linear;
@@ -141,6 +147,30 @@
   background: #06f;
   filter: blur(123.5px);
 }
+.glow-effect3 {
+  position: absolute;
+  left: -5%;
+  top: -24%;
+  border-radius: 416.224px;
+  opacity: 0.3;
+  background: #06f;
+  filter: blur(100px);
+  width: 416.224px;
+  height: 405.428px;
+  flex-shrink: 0;
+}
+.glow-effect4 {
+  position: absolute;
+  left: 34%;
+  bottom: 36%;
+  width: 537.685px;
+  height: 156.418px;
+  flex-shrink: 0;
+  border-radius: 537.685px;
+  opacity: 0.3;
+  background: #06f;
+  filter: blur(100px);
+}
 .work-sec-effect1 {
   position: absolute;
   bottom: 23%;
@@ -152,9 +182,6 @@
   opacity: 0.4;
   background: #1673ff;
   filter: blur(100px);
-}
-.border-right {
-  border-right: 2px solid #273a4f;
 }
 .border_top {
   border-top: 2px solid #273a4f;
@@ -172,11 +199,17 @@
   background: rgba(3, 137, 255, 0.1);
   backdrop-filter: blur(1.289352297782898px);
 }
-.bg_dark_blue{
+.bg_dark_blue {
   background-color: #021728;
 }
-.mw-1440{
+.mw-1440 {
   max-width: 1440px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.mw_274{
+  max-width: 274px;
 }
 @media (min-width: 576px) {
   .min-vh-sm-50 {
@@ -296,6 +329,18 @@
   .translate-translat50y-lg {
     transform: translateY(-50%) !important;
   }
+  .margin-bottom-lg {
+    margin-bottom: -219px;
+  }
+  .border-right-lg {
+    border-right: 2px solid #273a4f;
+  }
+  .border_bottom_lg {
+    border-bottom: 1px solid #fbfdff33;
+  }
+  .mw-274-lg {
+  max-width: 274px !important;
+}
 }
 @media (min-width: 1200px) {
   .min-vh-xl-70 {
