@@ -178,8 +178,8 @@ html {
 }
 .glow-effect6 {
   position: absolute;
-  top: 14%;
-  left: 24%;
+  top: 8%;
+  left: 21%;
   border-radius: 416.224px;
   opacity: 0.3;
   background: #06f;
@@ -234,8 +234,8 @@ html {
 .color-white {
   color: #ffffff;
 }
-.choose:hover{
-  color: #0389FF !important;
+.choose:hover {
+  color: #0389ff !important;
 }
 @media (min-width: 576px) {
   .min-vh-sm-50 {
