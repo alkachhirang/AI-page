@@ -118,7 +118,7 @@
 @media (max-width: 576px) {
   :root {
     /* font-size */
-    --fs-sm: 16px;
+    --fs-sm: 12px;
     --fs-md: 32px;
     --fs-xl: 34px;
     --fs-xxl: 15px;
