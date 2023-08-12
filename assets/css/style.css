@@ -559,6 +559,9 @@ html {
 .mw-1440 {
     max-width: 1440px;
 }
+.choose:hover {
+    color: #0389FF !important;
+}
 @media (min-width: 576px) {
     .min-vh-sm-50 {
         min-height: 50vh;
