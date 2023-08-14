@@ -298,6 +298,15 @@ html {
 .iconhover:hover {
     transform: scale(1.3);
 }
+.plan-card:hover .card-box .card-value {
+    color: #0066d1 !important;
+}
+.plan-card:hover .button-box .select {
+    border: transparent;
+    background-color: #0066d1 !important;
+    box-shadow: 0px 4px 32px 0px #2746ed80 !important;
+    transition: 300ms all linear;
+}
 .test-box {
     opacity:0.6;
 }
