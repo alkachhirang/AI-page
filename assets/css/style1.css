@@ -68,7 +68,9 @@ html {
 .select-button:hover {
   background-color: #0066d1 !important;
   box-shadow: 0px 4px 32px 0px #2746ed80 !important;
-  border: 2px solid #0066d1;
+  border: transparent;
+  transition: 300ms all linear;
+  /* border: 2px solid #0066d1; */
 }
 /* .nav-link:hover {
   -webkit-text-stroke: 1px #9003e5;
@@ -127,6 +129,7 @@ html {
   opacity: 0.4;
   background: #1673ff;
   filter: blur(100px);
+  z-index: 1;
 }
 .glow-effect2 {
   position: absolute;
@@ -139,6 +142,7 @@ html {
   opacity: 0.3;
   background: #06f;
   filter: blur(123.5px);
+  z-index: 1;
 }
 .glow-effect3 {
   position: absolute;
@@ -151,6 +155,7 @@ html {
   width: 416.224px;
   height: 405.428px;
   flex-shrink: 0;
+  z-index: 1;
 }
 .glow-effect4 {
   position: absolute;
@@ -163,6 +168,7 @@ html {
   opacity: 0.3;
   background: #06f;
   filter: blur(100px);
+  z-index: 1;
 }
 .glow-effect5 {
   position: absolute;
@@ -175,6 +181,7 @@ html {
   width: 416.224px;
   height: 405.428px;
   flex-shrink: 0;
+  z-index: 1;
 }
 .glow-effect6 {
   position: absolute;
@@ -187,6 +194,7 @@ html {
   width: 416.224px;
   height: 405.428px;
   flex-shrink: 0;
+  z-index: 1;
 }
 .work-sec-effect1 {
   position: absolute;
@@ -234,9 +242,19 @@ html {
 .color-white {
   color: #ffffff;
 }
-.choose:hover {
+/* .choose:hover {
   color: #0389ff !important;
+} */
+.plan-card:hover .card-box .card-value{
+  color: #0066d1 !important;
 }
+.plan-card:hover .button-box .select{
+  border: transparent;
+  background-color: #0066d1 !important;
+  box-shadow: 0px 4px 32px 0px #2746ed80 !important;
+  transition: 300ms all linear;
+}
+
 @media (min-width: 576px) {
   .min-vh-sm-50 {
     min-height: 50vh;
