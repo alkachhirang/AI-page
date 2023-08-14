@@ -489,6 +489,9 @@ html {
     background: #06F;
     filter: blur(100px);
 }
+.z-index-3{
+    z-index: 3;
+}
 .shadow_circle-5 {
     position: absolute;
     top: 32%;
