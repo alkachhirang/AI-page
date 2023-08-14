@@ -302,9 +302,6 @@ html {
 .slider_box:hover{
 transform: scale(1.1);
 }
-.z-index-3{
-    z-index: 3;
-}
 .plan-card:hover .card-box .card-value {
     color: #0066d1 !important;
 }
