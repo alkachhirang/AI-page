@@ -23,22 +23,24 @@ html {
     background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
     box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
     border: 1px solid rgba(0, 136, 255, 0.58) !important;
-    padding: 8px;
+    padding:19px;
+    white-space: nowrap;
 }
 .max-width_627 {
     max-width: 627px;
 }
 .email-box {
-    border-radius: 29px;
+    border-radius:40px;
     background: rgba(251, 253, 255, 0.07);
-    /* padding: 0px 63px; */
     border: 2px solid transparent;
-    max-width: 520px;
+    max-width:400px;
 }
 .email {
     background: transparent;
-    padding: 6px 8px;
+    padding: 16px;
+    width: 220px;
     border: 2px solid transparent;
+    outline: none !important;
 }
 .bg-light-black {
     background-color: #020d15;
@@ -433,7 +435,7 @@ html {
 .shadow_circle {
     position: absolute;
     top: 20%;
-    left: 33%;
+    left:13%;
     width: 489.097px;
     height: 476.411px;
     flex-shrink: 0;
@@ -562,6 +564,9 @@ html {
 }
 .choose:hover {
     color: #0389FF !important;
+}
+.letter_spacing_3{
+    letter-spacing: 3px;
 }
 @media (min-width: 576px) {
     .min-vh-sm-50 {
@@ -838,21 +843,25 @@ html {
         background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
         box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
         border: 1px solid rgba(0, 136, 255, 0.58) !important;
-        padding: 13px 32px;
+        padding: 20px 33px;
+        white-space: nowrap;
     }
 
     .email-box-sm {
-        border-radius: 29px;
+        border-radius:50px;
         background: rgba(251, 253, 255, 0.07);
-        /* padding: 0px 63px; */
         border: 2px solid transparent;
         max-width: 520px;
     }
 
     .email-sm {
         background: transparent;
-        padding: 13px 80px;
+        /* padding: 13px 80px; */
+        width:360px;
+        padding:20px;
         border: 2px solid transparent;
+        outline: none !important;
+
     }
 }
 @media (min-width:992px) {
