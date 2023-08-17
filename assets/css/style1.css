@@ -286,7 +286,7 @@ html {
     left: -14%;
     bottom: -1%;
   }
-  .accuracy-sm{
+  .accuracy-sm {
     top: 58%;
     right: -11%;
   }
@@ -383,6 +383,7 @@ html {
   .file-formate-lg {
     bottom: -3%;
     /* left: -10%; */
+    left: 71%;
   }
 }
 @media (min-width: 1200px) {
